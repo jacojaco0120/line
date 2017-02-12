@@ -1,0 +1,125 @@
+I, [2017-02-12T05:05:07.982568 #21567]  INFO -- : [674c4f65-7b53-43cc-955d-afebd5c040ca] Started GET "/" for 126.27.63.251 at 2017-02-12 05:05:07 +0900
+F, [2017-02-12T05:05:07.984026 #21567] FATAL -- : [674c4f65-7b53-43cc-955d-afebd5c040ca]   
+F, [2017-02-12T05:05:07.984085 #21567] FATAL -- : [674c4f65-7b53-43cc-955d-afebd5c040ca] ActionController::RoutingError (No route matches [GET] "/"):
+F, [2017-02-12T05:05:07.984126 #21567] FATAL -- : [674c4f65-7b53-43cc-955d-afebd5c040ca]   
+F, [2017-02-12T05:05:07.984159 #21567] FATAL -- : [674c4f65-7b53-43cc-955d-afebd5c040ca] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[674c4f65-7b53-43cc-955d-afebd5c040ca] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2017-02-12T05:05:59.343161 #21567]  INFO -- : [7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] Started GET "/" for 126.27.63.251 at 2017-02-12 05:05:59 +0900
+F, [2017-02-12T05:05:59.343869 #21567] FATAL -- : [7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc]   
+F, [2017-02-12T05:05:59.343925 #21567] FATAL -- : [7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] ActionController::RoutingError (No route matches [GET] "/"):
+F, [2017-02-12T05:05:59.343954 #21567] FATAL -- : [7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc]   
+F, [2017-02-12T05:05:59.343998 #21567] FATAL -- : [7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[7d5bf9a6-77f3-4c59-b3ba-dfed7a90e6dc] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2017-02-12T05:10:41.215517 #21567]  INFO -- : [ad34e483-fdba-4e12-9a4d-47745cfe040f] Started GET "/talk/list" for 126.27.63.251 at 2017-02-12 05:10:41 +0900
+F, [2017-02-12T05:10:41.216110 #21567] FATAL -- : [ad34e483-fdba-4e12-9a4d-47745cfe040f]   
+F, [2017-02-12T05:10:41.216155 #21567] FATAL -- : [ad34e483-fdba-4e12-9a4d-47745cfe040f] ActionController::RoutingError (No route matches [GET] "/talk/list"):
+F, [2017-02-12T05:10:41.216186 #21567] FATAL -- : [ad34e483-fdba-4e12-9a4d-47745cfe040f]   
+F, [2017-02-12T05:10:41.216222 #21567] FATAL -- : [ad34e483-fdba-4e12-9a4d-47745cfe040f] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[ad34e483-fdba-4e12-9a4d-47745cfe040f] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2017-02-12T05:11:53.057942 #21567]  INFO -- : [b5b6eec2-265b-47f8-ba10-1c11364b56e8] Started GET "/talk/list" for 126.27.63.251 at 2017-02-12 05:11:53 +0900
+F, [2017-02-12T05:11:53.058448 #21567] FATAL -- : [b5b6eec2-265b-47f8-ba10-1c11364b56e8]   
+F, [2017-02-12T05:11:53.058485 #21567] FATAL -- : [b5b6eec2-265b-47f8-ba10-1c11364b56e8] ActionController::RoutingError (No route matches [GET] "/talk/list"):
+F, [2017-02-12T05:11:53.058506 #21567] FATAL -- : [b5b6eec2-265b-47f8-ba10-1c11364b56e8]   
+F, [2017-02-12T05:11:53.058534 #21567] FATAL -- : [b5b6eec2-265b-47f8-ba10-1c11364b56e8] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[b5b6eec2-265b-47f8-ba10-1c11364b56e8] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2017-02-12T05:15:02.937078 #21567]  INFO -- : [3cf72742-4b17-4966-805d-a5ef2d5edda5] Started GET "/talk/list" for 126.27.63.251 at 2017-02-12 05:15:02 +0900
+F, [2017-02-12T05:15:02.937638 #21567] FATAL -- : [3cf72742-4b17-4966-805d-a5ef2d5edda5]   
+F, [2017-02-12T05:15:02.937678 #21567] FATAL -- : [3cf72742-4b17-4966-805d-a5ef2d5edda5] ActionController::RoutingError (No route matches [GET] "/talk/list"):
+F, [2017-02-12T05:15:02.937706 #21567] FATAL -- : [3cf72742-4b17-4966-805d-a5ef2d5edda5]   
+F, [2017-02-12T05:15:02.937742 #21567] FATAL -- : [3cf72742-4b17-4966-805d-a5ef2d5edda5] actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] railties (5.0.1) lib/rails/engine.rb:522:in `call'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[3cf72742-4b17-4966-805d-a5ef2d5edda5] passenger (5.1.2) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2017-02-12T05:15:56.266839 #22259]  INFO -- : [8f88af3e-fdf1-49a6-8576-8a15fb3fa27c] Started GET "/talk/list" for 126.27.63.251 at 2017-02-12 05:15:56 +0900
+I, [2017-02-12T05:15:56.270435 #22259]  INFO -- : [8f88af3e-fdf1-49a6-8576-8a15fb3fa27c] Processing by TalkController#list as HTML
+I, [2017-02-12T05:15:56.279991 #22259]  INFO -- : [8f88af3e-fdf1-49a6-8576-8a15fb3fa27c]   Rendering talk/list.html.erb within layouts/application
+I, [2017-02-12T05:15:56.280863 #22259]  INFO -- : [8f88af3e-fdf1-49a6-8576-8a15fb3fa27c]   Rendered talk/list.html.erb within layouts/application (0.7ms)
+I, [2017-02-12T05:15:56.286430 #22259]  INFO -- : [8f88af3e-fdf1-49a6-8576-8a15fb3fa27c] Completed 200 OK in 16ms (Views: 8.5ms)
